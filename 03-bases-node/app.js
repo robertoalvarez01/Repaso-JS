@@ -1,5 +1,6 @@
 const argv = require('./config/yargs').argv;
 const { crearArchivo, listarTabla } = require('./multiplicar/multiplicar')
+const colors = require('colors');
 
 let comando = argv._[0]
 
